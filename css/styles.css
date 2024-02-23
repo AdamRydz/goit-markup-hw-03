@@ -130,7 +130,7 @@ img {
   width: calc((100% - 72px) / 4);
 }
 .s-one-first-point {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .section-one-headline {
   font-weight: 500;
