@@ -113,7 +113,16 @@ img {
   padding: 120px 0;
 }
 .visually-hidden {
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .section-one-list {
   display: flex;
@@ -170,7 +179,7 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 .employe-info {
-  padding: 32px 16px;
+  padding: 32px 0px;
 }
 .paragraph-section-two {
   font-weight: 400;
@@ -225,16 +234,31 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-bottom: 8px;
 }
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .paragraph-footer {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 .span-footer {
   color: #f4f4fd;
+}
+.logo-footer {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
