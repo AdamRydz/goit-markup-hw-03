@@ -35,6 +35,7 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  text-decoration: none;
 }
 .span {
   color: #2e2f42;
@@ -50,6 +51,7 @@ img {
 .menu-link {
   color: #2e2f42;
   padding: 24px 0;
+  text-decoration: none;
 }
 .menu-link:hover {
   color: #404bbf;
@@ -68,6 +70,7 @@ img {
   color: #434455;
   display: flex;
   gap: 40px;
+  text-decoration: none;
 }
 .contact:hover {
   color: #404bbf;
@@ -127,6 +130,8 @@ img {
 .section-one-list {
   display: flex;
   gap: 24px;
+}
+.section-one-list:nth-child(1) {
   width: calc((100% - 72px) / 4);
 }
 .s-one-first-point {
@@ -234,6 +239,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-top: 8px;
   margin-bottom: 8px;
 }
 
