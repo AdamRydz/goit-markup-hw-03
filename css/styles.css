@@ -134,7 +134,7 @@ img {
 }
 
 .s-one-first-point {
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) \4);
 }
 .section-one-headline {
   font-weight: 500;
