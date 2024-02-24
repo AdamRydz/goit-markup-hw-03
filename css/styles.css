@@ -232,7 +232,7 @@ img {
   column-gap: 24px;
   row-gap: 48px;
   list-style-type: none;
-  margin: 0;
+  margin-bottom: 8px;
 }
 .paragraph-section-three {
   font-weight: 400;
@@ -241,7 +241,6 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  margin: 0;
 }
 
 .footer {
